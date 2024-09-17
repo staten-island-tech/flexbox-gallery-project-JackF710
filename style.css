@@ -15,20 +15,20 @@ body{
     height: 50vw;
     flex-direction: row;
     font-size: 2rem;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    margin: 15rem;
-    display: flex;
     flex-wrap: wrap;
     width: 90vw;
-    justify-content: space-between 5px;    
+    justify-content: space-between 5px;
+    margin-left: 4%;
 }
 .terstegenimg{
-    width: 50%;
+    width: 80%;
     object-fit: cover;
-    margin-left: 13rem;
-    margin-top: -1rem;
+    margin-left: 10%;
+}
+.cubarsiimg{
+    width: 98.5%;
+    object-fit: cover;
 }
 h1{
     font-size: 7rem;
@@ -38,14 +38,17 @@ h1{
 }
 h2{
     text-align: center;
+    margin-top: 3%;
+    margin-bottom: -3%;
 }
 .posts{
     width: 26%;
-    height: 30vw;
-    background-color: rgb(163, 156, 146);
+    height: 28vw;
+    background-color: rgb(188, 169, 141);
     border: solid;
     border-color: rgb(103, 151, 228);
     margin-left: 2rem;
     margin-top: 1rem;
     border-radius: 10%;
+    align-items: center;
 }
