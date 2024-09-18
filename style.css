@@ -17,18 +17,91 @@ body{
     font-size: 2rem;
     justify-content: space-between;
     flex-wrap: wrap;
+    display: flex;
     width: 90vw;
     justify-content: space-between 5px;
     margin-left: 4%;
 }
-.terstegenimg{
-    width: 80%;
-    object-fit: cover;
+img{
+    width: 65%;
+    object-fit: contain;
     margin-left: 10%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12%;
 }
 .cubarsiimg{
-    width: 98.5%;
-    object-fit: cover;
+    width: 83.5%;
+    object-fit: contain;
+    margin-left: 10%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 30%;
+}
+.araujoimg{
+    width: 76%;
+    object-fit: contain;
+    margin-left: 10%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20%;
+}
+.gaviimg{
+    width: 76%;
+    object-fit: contain;
+    margin-left: 10%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20%;
+}
+.ferranimg{
+    width: 76%;
+    object-fit: contain;
+    margin-left: 10%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20%;
+}
+.pedriimg{
+    width: 76%;
+    object-fit: contain;
+    margin-left: 10%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20%;
+}
+.lewandowskiimg{
+    width: 76%;
+    object-fit: contain;
+    margin-left: 10%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20%;
+}
+.raphinaimg{
+    width: 75%;
+    object-fit: contain;
+    margin-left: 10%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20%;
+}
+.lamineimg{
+    width: 83.5%;
+    object-fit: contain;
+    margin-left: 10%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 30%;
 }
 h1{
     font-size: 7rem;
@@ -51,4 +124,6 @@ h2{
     margin-top: 1rem;
     border-radius: 10%;
     align-items: center;
+    min-width: 25rem;
+    min-height: 30rem;
 }
