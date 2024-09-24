@@ -1,7 +1,6 @@
 body,
 html,
 * {
-    font-family: 10px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -15,66 +14,52 @@ body {
 }
 
 .container {
-    width: 85vw;
+    width: 90vw;
     height: 50vw;
     flex-direction: row;
     font-size: 2rem;
     flex-wrap: wrap;
     display: flex;
-    width: 90vw;
-    margin-left: 4%;
+    margin-left: 4rem;
     justify-content: space-between;
 }
     a{
         color: aliceblue;
     }
-@media screen and (max-width: 667px) {
-    .posts {
-        width: 100%;
-        align-items: center;
+    @media screen and (max-width: 667px) {
+        .posts {
+            width: 8%;
+            height: fit-content;
+        }
     }
-
-    .container {
-        flex-direction: row;
+    
+    @media screen and (max-width: 900px) {
+        .posts {
+            width: 45%;
+        }
     }
-
-    .h1 {
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .posts {
-        width: 45%;
-    }
-}
 
 button {
     background-color: rgb(81, 104, 219);
     font-size: 28px;
-    color: rgb(255, 255, 255);
-    border: solid;
-    border-radius: 20%;
-    border-color: black;
-    text-align: center;
-    margin-left: 7.3rem;
-    margin-bottom: 20px;
+    color: white;
+    border: solid black;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-left: 6.6rem;
 }
 
 button:hover {
-    transition-duration: 0.8s;
-    background-color: rgb(235, 197, 71);
-    transform: scaleY(1.1);
-}
-
-button:after {
-    color: aliceblue;
+    background-color: rgb(235, 197, 71); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-2px); 
 }
 
 img {
-    width: 65%;
+    width: 70%;
     object-fit: contain;
-    margin-left: 10%;
+    margin-left: 10rem;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -87,84 +72,32 @@ p {
     color: rgb(248, 182, 17);
 }
 
-.cubarsiimg {
+.playerimg {
     width: 83.5%;
     object-fit: contain;
-    margin-left: 10%;
+    margin-left: 10rem;
     height: auto;
     display: block;
     margin: 0 auto;
     border-radius: 30%;
 }
-
-.araujoimg {
-    width: 76%;
+.cubarsiimg{
+    width: 90%;
     object-fit: contain;
-    margin-left: 10%;
+    margin-left: 10rem;
     height: auto;
     display: block;
     margin: 0 auto;
-    border-radius: 20%;
+    border-radius: 12%;
 }
-
-.gaviimg {
-    width: 76%;
+.lamineimg{
+    width: 90%;
     object-fit: contain;
-    margin-left: 10%;
+    margin-left: 10rem;
     height: auto;
     display: block;
     margin: 0 auto;
-    border-radius: 20%;
-}
-
-.ferranimg {
-    width: 76%;
-    object-fit: contain;
-    margin-left: 10%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border-radius: 20%;
-}
-
-.pedriimg {
-    width: 76%;
-    object-fit: contain;
-    margin-left: 10%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border-radius: 20%;
-}
-
-.lewandowskiimg {
-    width: 76%;
-    object-fit: contain;
-    margin-left: 10%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border-radius: 20%;
-}
-
-.raphinaimg {
-    width: 75%;
-    object-fit: contain;
-    margin-left: 10%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border-radius: 20%;
-}
-
-.lamineimg {
-    width: 83.5%;
-    object-fit: contain;
-    margin-left: 10%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border-radius: 30%;
+    border-radius: 12%;
 }
 
 h1 {
@@ -188,10 +121,9 @@ h2 {
     border: solid;
     border-style: ridge;
     border-color: rgb(178, 92, 92);
-    margin-left: 2rem;
     margin-top: 1rem;
     border-radius: 15%;
     align-items: center;
     min-width: 21rem;
-    min-height: 30rem;
+    min-height: 33rem;
 }
